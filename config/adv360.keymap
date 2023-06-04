@@ -56,15 +56,15 @@
      &mo 2  &kp GRAVE  &kp CAPS           &kp LEFT  &kp RIGHT                                   &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0                            &kp UP      &kp DOWN        &kp KP_DOT         &kp RBKT      &mo 2
             >;
         };
-
-        layer_fn {
+        
+layer_fn {
             bindings = <
- &kp F1           &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &kp EXCLAMATION  &kp AT  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans           &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans   &none   &none  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans           &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans           &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
-            >;
+ &kp F1  &kp F2    &kp F3     &kp F4    &kp F5    &kp F6     &tog 1   &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+ &trans  &kp EXCL  &kp AT     &kp LBRC  &kp RBRC  &kp PIPE   &none        	                                        &none  &kp BROWSER_PREVTAB &kp BROWSER_CLOSETTAB  &kp BROWSER_NEWTAB  &kp BROWSER_NEXTTAB  &kp ASTERISK  &trans
+ &trans  &kp AMPS  &kp DOLLAR &kp LPAR  &kp RPAR  &kp GRAVE  &none    &trans  &trans                  &trans   &trans   &none  &kp LEFT            &kp DOWN               &kp UP              &kp RIGHT            &trans        &trans
+ &trans  &kp HASH  &kp CARET  &kp LBKT  &kp RBKT  &kp TILDE  &none    &none   &trans  &none   &none   &trans   &none    &none  &kp UNDER           &kp MINUS              &kp EQUAL           &kp PERCENT          &trans        &trans
+ &trans  &trans    &trans     &trans    &trans    &trans     &trans   &trans  &trans  &trans                                   &trans              &trans                 &trans              &trans               &trans        &trans
+            >;  
         };
 
         layer_mod {
