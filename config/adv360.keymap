@@ -14,7 +14,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick_tap_ms = <175>;
-            flavor = "tap-preferred";
+            flavor = "tap-unless-interrupted";
             bindings = <&kp>, <&kp>;
         };
     };
@@ -26,13 +26,13 @@
             bindings = <
 &kp EQUAL  &kp N1      &kp N2              &kp N3          &kp N4            &kp N5  &tog 0                                                   &mo 3      &kp N6             &kp N7          &kp N8              &kp N9          &kp N0    &kp MINUS
 &kp TAB    &kp SQT     &kp COMMA           &kp DOT         &kp P             &kp Y   &none                                                    &none      &kp F              &kp G           &kp C               &kp R           &kp L     &kp BSLH
-&kp ESC    &mt LALT A  &hm LEFT_CONTROL O  &mt LEFT_GUI E  &hm LEFT_SHIFT U  &kp I   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &mt RIGHT_SHIFT H  &mt LEFT_GUI T  &mt LEFT_CONTROL N  &mt LEFT_ALT S  &kp S     &kp SQT
-&kp LSHFT  &kp SEMI    &kp Q               &kp J           &kp K             &kp X                        &kp HOME      &kp PG_UP                        &kp B              &kp M           &kp W               &kp V           &kp Z     &kp RSHFT
+&kp ESC    &mt LALT A  &hm LEFT_CONTROL O  &mt LEFT_GUI E  &hm LEFT_SHIFT U  &kp I   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &mt RIGHT_SHIFT D  &mt LEFT_GUI H  &mt LEFT_CONTROL T  &mt LEFT_ALT S  &kp S     &kp SQT
+&kp LSHFT  &kp SEMI    &kp Q               &kp J           &lt 1 K           &kp X                        &kp HOME      &kp PG_UP                        &kp B              &lt 1 M         &kp W               &kp V           &kp Z     &kp RSHFT
 &mo 2      &kp GRAVE   &kp CAPS            &kp LEFT        &kp RIGHT                 &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                     &kp UP          &kp DOWN            &kp LBKT        &kp RBKT  &mo 2
             >;
         };
 
-        layer_3 {
+        symbols {
             bindings = <
 &trans  &trans  &trans  &trans            &trans             &trans  &trans                                      &trans  &trans  &trans                &trans                 &trans  &trans  &trans
 &trans  &trans  &trans  &trans            &trans             &trans  &trans                                      &trans  &trans  &trans                &trans                 &trans  &trans  &trans
