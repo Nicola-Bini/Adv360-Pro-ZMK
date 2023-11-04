@@ -35,7 +35,7 @@
         symbols {
             bindings = <
 &trans  &trans     &trans      &trans          &trans           &trans           &trans                                      &trans  &trans         &trans                &trans                 &trans        &trans     &trans
-&trans  &kp TAB    &kp DOLLAR  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EXCLAMATION  &trans                                      &trans  &kp QUESTION   &kp MINUS             &kp UNDERSCORE         &trans        &kp PLUS   &trans
+&trans  &kp TAB    &kp DOLLAR  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EXCLAMATION  &trans                                      &trans  &kp QUESTION   &kp MINUS             &kp UNDERSCORE         &kp AT        &kp PLUS   &trans
 &trans  &kp EQUAL  &kp ESCAPE  &kp LBKT        &kp RBKT         &kp PERCENT      &trans  &trans  &trans      &trans  &trans  &trans  &kp SLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp EQUAL  &trans
 &trans  &kp GRAVE  &kp TILDE   &kp LT          &kp GT           &kp GRAVE                        &trans      &trans                  &kp BACKSLASH  &trans                &trans                 &kp PIPE2     &kp AMPS   &trans
 &trans  &trans     &trans      &trans          &trans                            &trans  &trans  &trans      &trans  &trans  &trans                 &trans                &trans                 &trans        &trans     &trans
